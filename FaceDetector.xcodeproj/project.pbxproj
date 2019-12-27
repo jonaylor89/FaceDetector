@@ -15,6 +15,8 @@
 		8F891EEF23B54C040012C6A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F891EED23B54C040012C6A3 /* LaunchScreen.storyboard */; };
 		8F891EFA23B54C050012C6A3 /* FaceDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F891EF923B54C050012C6A3 /* FaceDetectorTests.swift */; };
 		8F891F0523B54C050012C6A3 /* FaceDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F891F0423B54C050012C6A3 /* FaceDetectorUITests.swift */; };
+		8F891F1323B54C5D0012C6A3 /* Faces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F891F1223B54C5D0012C6A3 /* Faces.swift */; };
+		8F891F1523B550500012C6A3 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F891F1423B550500012C6A3 /* Views.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8F891F0023B54C050012C6A3 /* FaceDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F891F0423B54C050012C6A3 /* FaceDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectorUITests.swift; sourceTree = "<group>"; };
 		8F891F0623B54C050012C6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F891F1223B54C5D0012C6A3 /* Faces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faces.swift; sourceTree = "<group>"; };
+		8F891F1423B550500012C6A3 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		8F891EE123B54C000012C6A3 /* FaceDetector */ = {
 			isa = PBXGroup;
 			children = (
+				8F891F1223B54C5D0012C6A3 /* Faces.swift */,
 				8F891EE223B54C000012C6A3 /* AppDelegate.swift */,
 				8F891EE423B54C000012C6A3 /* SceneDelegate.swift */,
 				8F891EE623B54C000012C6A3 /* ContentView.swift */,
@@ -106,6 +111,7 @@
 				8F891EED23B54C040012C6A3 /* LaunchScreen.storyboard */,
 				8F891EF023B54C040012C6A3 /* Info.plist */,
 				8F891EEA23B54C040012C6A3 /* Preview Content */,
+				8F891F1423B550500012C6A3 /* Views.swift */,
 			);
 			path = FaceDetector;
 			sourceTree = "<group>";
@@ -267,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F891F1323B54C5D0012C6A3 /* Faces.swift in Sources */,
 				8F891EE323B54C000012C6A3 /* AppDelegate.swift in Sources */,
 				8F891EE523B54C000012C6A3 /* SceneDelegate.swift in Sources */,
+				8F891F1523B550500012C6A3 /* Views.swift in Sources */,
 				8F891EE723B54C000012C6A3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
